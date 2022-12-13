@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    tools:context=".Others.Newseacrchlayout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/white2"
+        android:layout_height="match_parent">
+
+
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="false"
+            android:inputType="textCapWords"
+            android:queryBackground="@drawable/search"
+            android:background="@drawable/search"
+            android:queryHint="O que você está procurando"
+            app:theme="@style/SearchViewStyle2" />
+
+
+
+        <TextView
+            android:id="@+id/sugestao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bannereletromag"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/sweetsansprobold"
+            android:padding="20dp"
+            android:text="Todos os Apps"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/listApps"
+                    android:layout_width="match_parent"
+                    android:layout_height="3700dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:divider="@null"
+                    android:listSelector="@color/transparent"
+                    android:backgroundTint="@color/transparent"
+                    android:outlineAmbientShadowColor="@color/transparent"
+                    android:outlineSpotShadowColor="@color/transparent"
+                    tools:targetApi="p"
+                    tools:ignore="NestedScrolling">
+
+                </ListView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-55dp"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/white2"
+        app:itemTextColor="@color/transparent"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</LinearLayout>

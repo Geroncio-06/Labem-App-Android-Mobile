@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#2E2E2E</color>
+    <color name="purple_500">#2E2E2E</color>
+    <color name="purple_700">#2E2E2E</color>
+    <color name="teal_200">#FF000000</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFFBF00</color>
+    <color name="transparent">#00000000</color>
+    <color name="systemgray">#bfbfbf</color>
+    <color name="lightgray">#f2f2f2</color>
+    <color name="red">#AF4825</color>
+    <color name="lightblack">#ff767676</color>
+    <color name="gray2">#CACACA</color>
+    <color name="lima">#8E921B</color>
+    <color name="celeste">#416069</color>
+    <color name="white2">#f8f8f8</color>
+    <color name="black2">#404040</color>
+    <color name="verdebebe">#00a5a7</color>
+
+    <color name="azulbebe">#dfecf2</color>
+    <color name="verdebebe2">#d8f4df</color>
+    <color name="musgobebe">#e3ece5</color>
+    <color name="pelebebe">#f1f0eb</color>
+    <color name="vermelhobebe">#f3ecea</color>
+
+    <color name="amareloclaro">#ffec9a</color>
+    <color name="verdeestacao">#EE5E15</color>
+    <color name="vermelhoestacao">#C1310E</color>
+    <color name="azulestacao">#3B542D</color>
+    <color name="verdeclaroestacao">#8E921B</color>
+    <color name="grafite">#2E2E2E</color>
+    <color name="purple">#993399</color>
+</resources>

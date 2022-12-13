@@ -1,0 +1,135 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.labem" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/yellow</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/yellow</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.labem_home" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/grafite</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/white</item>
+
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.app" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/grafite</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/grafite</item>
+
+        <!-- <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>-->
+
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.app2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/grafite</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/white2</item>
+
+        <!-- <item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.app3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white2</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/white2</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">14sp</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorSecondary">@color/lightblack</item> <!-- icones cor searchview: buttom clear e lupa. -->
+        <item name="android:textColorHint">@color/lightblack</item>
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="android:radius">20dp</item>
+        <item name="android:fontFamily">@font/sweetsansprobold</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="SearchViewStyle2" parent="Widget.AppCompat.Light.SearchView">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">14sp</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item> <!-- icones cor searchview: buttom clear e lupa. -->
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="android:fontFamily">@font/sweetsansprobold</item>
+        <item name="android:textStyle">normal</item>
+
+
+
+    </style>
+
+
+
+    <style name="style_TextView">
+        <item name="android:fontFamily">@font/sweetsansprobold</item>
+        <item name="android:textSize">0sp</item>
+    </style>
+</resources>

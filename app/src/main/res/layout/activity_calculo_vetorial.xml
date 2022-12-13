@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grafite"
+    android:orientation="vertical"
+    tools:context=".Calculo_vetorial.Calculo_vetorial">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grafite"
+        tools:ignore="ScrollViewSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="right"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+            <ProgressBar
+                android:id="@+id/progress_calculo_vetorial"
+                android:layout_width="30dp"
+                android:layout_height="899dp"
+                android:layout_marginTop="-185dp"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:elevation="20dp"
+                android:outlineAmbientShadowColor="@color/transparent"
+                android:visibility="invisible"
+                tools:ignore="UnusedAttribute" />
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/azulestacao">
+
+                <ImageButton
+                    android:id="@+id/voltar"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:padding="10dp"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_arrow_back_light"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grafite"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="@string/calcVet"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/sweetsansprobold"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-10dp"
+                    android:padding="20dp"
+                    android:text="@string/escolha"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/orbitron_regular"
+                    android:maxLines="3"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/gradientecartesiano"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/gradient_cartesiano"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/gradiente_cartesiano"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/cv_gradientecilindrico"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/gradient_cilindro"
+                                android:scaleType="fitCenter"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/gradiente_cilindro"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/cv_gradienteesferico"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/gradient_esferico"
+                                android:scaleType="fitCenter"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/gradiente_esferico"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/cv_divergentecartesiano"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/divergente_cartesiano"
+                                android:scaleType="fitCenter"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="83dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/divergente_cartesiano"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/cv_divergentecilindrico"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/divergente_cilindro"
+                                android:visibility="visible"
+                                android:background="@color/transparent"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/divergente_cilindrico"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/cv_divergenteesferico"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/divergente_esfera"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/divergente_esferico"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="67dp"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent"
+                            android:gravity="center_horizontal">
+
+                            <ImageButton
+                                android:id="@+id/cv_rotacionalcartesiano"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:background="@color/transparent"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/rotacional_cartesiano"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/rotacional_cartesiano"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/cv_rotacionalcilindrico"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/rotacional_cilindro"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="83dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/rotacional_cilindrico"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/cv_rotacionalesferico"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/rotacional_esferico"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/rotacional_esferico"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/cv_integraldelinha"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/integral_linha"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/integral_linha"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageView
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:src="@drawable/produto_misto"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="10sp"
+                        android:text="@string/produtomisto"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageView
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:src="@drawable/angulo_entre_vet"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="83dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/angulovet"
+                        android:textSize="10sp"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:padding="20dp"
+                android:text="@string/sobre"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron_regular"
+                android:maxLines="3"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="20dp"
+                android:text="@string/calculo_vetorial"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/xits"
+                android:maxLines="5"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/background_layout_list.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/background_list_vermelho.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/circle_greem.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/circle_orange.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/custom_buttomazul.xml" value="0.1575" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/custom_buttompurple.xml" value="0.1575" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/ic_arrow_back_azul.xml" value="0.1575" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/ic_arrow_back_purple.xml" value="0.158" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/ic_eye_azul.xml" value="0.1575" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/ic_info_azul.xml" value="0.1575" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable-v24/ic_info_purple.xml" value="0.1575" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/background_layout_border.xml" value="0.1465" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/background_layout_border2.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/background_layout_border3.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/background_layout_yellow.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/background_relativelayout.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/bannergradient.xml" value="0.1465" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/circle.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/circle_blue.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/circle_purple.xml" value="0.1575" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/contorno_search.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/contorno_search2.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/custom_buttomvermelhoestacao.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/gradient.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/gradient2.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/ic_arrow_back_dark.xml" value="0.1575" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/ic_arrow_back_light.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/ic_eye_purple.xml" value="0.158" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/ic_home.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/layout_circle.xml" value="0.1465" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/search.xml" value="0.1585" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/drawable/selector.xml" value="0.1465" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_algebra_vetorial.xml" value="0.33" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_anguloentrevetores.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_coplanaridadevetores.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_normadovetor.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_produtoescalar.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_produtomisto.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_produtovetorial.xml" value="0.21" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_projecaoortogonal.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_somavetores.xml" value="0.21" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_versorvetor.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_av_vetordoispontos.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_calculator.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_calculo_vetorial.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_camposeletrostaticos.xml" value="0.33" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_camposmagneticos.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_ce_forcacoulomb.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_ce_intensidadecamposeletricos.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_ce_linadecargas.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_ce_potencialeletrico_superficie.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_ce_potencialeletrico_volume.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_ce_potencialeletricolinha.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_ce_superficiedecargas.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_ce_trabalholinha.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_ce_volumedecargas.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cm_dendidadecorrente.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cm_densidadecorrentecilindrico.xml" value="0.2" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cm_densidadefluxomagneticocartesiano.xml" value="0.18" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cm_densidadefluxomagneticocilindrico.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cm_espira.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cm_linhacoaxiallonga.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cm_solenoide.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_command.xml" value="0.1" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_corrente_lamina.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_correnteemlinha.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cv_divergentecartesiano.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cv_divergentecilindrico.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cv_divergenteesferico.xml" value="0.21" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cv_gradientecilindrico.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cv_gradienteesferico.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cv_integraldelinha.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cv_rotacionalcartesiano.xml" value="0.21" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cv_rotacionalcilindrico.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_cv_rotacionalesferico.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_gradiente_cartesiano.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_info.xml" value="0.18" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_newseacrchlayout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_search_layout.xml" value="0.15" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_settings.xml" value="0.21" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_sistema_transformada.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_stc_cartesianocilindrico.xml" value="0.21" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_stc_cartesianoesferico.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_stc_cilindricocartesiano.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_stc_cilindricoesferico.xml" value="0.21" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_stc_esfericocartesiano.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/activity_stc_esfericocilindrico.xml" value="0.22" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/layout/search_list.xml" value="0.25" />
+        <entry key="..\:/Users/geron/AndroidPosts/Labem5/app/src/main/res/menu/menu_navigation.xml" value="0.1675929884566054" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

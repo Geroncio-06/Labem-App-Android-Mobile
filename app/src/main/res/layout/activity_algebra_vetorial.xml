@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grafite"
+    tools:context=".Algebra_vetorial.Algebra_vetorial">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grafite"
+        tools:ignore="ScrollViewSize">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="right"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+            <ProgressBar
+                android:id="@+id/progress_algebra_vetorial"
+                android:layout_width="30dp"
+                android:layout_height="899dp"
+                android:layout_marginTop="-185dp"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:elevation="20dp"
+                android:outlineAmbientShadowColor="@color/transparent"
+                android:visibility="invisible"
+                tools:targetApi="p" />
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/vermelhoestacao">
+
+                <ImageButton
+                    android:id="@+id/voltar"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/transparent"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_arrow_back_light"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grafite"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="@string/algebra"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/sweetsansprobold"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-10dp"
+                    android:padding="20dp"
+                    android:text="@string/escolha"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/orbitron_regular"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_d2p"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/vetab"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="9sp"
+                        android:textColor="@color/white"
+                        android:text="@string/dentre2pontos"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_normavetor"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/normavetor"
+                                android:scaleType="fitCenter"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/norma"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_versor"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/versorvetor"
+                                android:scaleType="fitCenter"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/versor"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_coplanaridade"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/coplanaridade"
+                                android:scaleType="fitCenter"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="83dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/coplanaridade"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        android:textSize="8sp"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_produtescal"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/produto_escalar"
+                                android:visibility="visible"
+                                android:background="@color/transparent"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/produtoescal"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_produtvet"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/produto_vetorial"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/produtovet"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_produtmisto"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/produto_misto"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/produtomisto"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_angulo_entre_vet"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/angulo_entre_vet"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="83dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/angulovet"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_projort"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/proje_ortog"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/projort"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageButton
+                                android:id="@+id/av_somasubvet"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:scaleType="fitCenter"
+                                android:background="@color/transparent"
+                                android:src="@drawable/somasubvetor"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="8sp"
+                        android:textColor="@color/white"
+                        android:text="@string/somasubvetor"
+                        android:fontFamily="@font/orbitron_regular"
+                        android:maxLines="3"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageView
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:src="@drawable/produto_misto"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textSize="10sp"
+                        android:text="@string/produtomisto"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/transparent"
+                    android:visibility="invisible"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/gray2"
+                        android:background="@color/transparent"
+                        app:cardCornerRadius="60dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent">
+
+                            <ImageView
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
+                                android:src="@drawable/angulo_entre_vet"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="83dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/angulovet"
+                        android:textSize="10sp"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:padding="20dp"
+                android:text="@string/sobre"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/orbitron_regular"
+                android:maxLines="3"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="20dp"
+                android:text="@string/algebravetorial"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/xits"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tower"
+        android:alpha="0.08">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-100dp"
+        android:layout_marginBottom="-110dp"
+        android:alpha="0.08"
+        android:src="@drawable/tower"
+        tools:ignore="ContentDescription" />
+
+
+    <RelativeLayout
+        android:id="@+id/layout_1"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:rotation="45"
+            android:src="@drawable/line_up"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:rotation="225"
+            android:src="@drawable/line_up"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/gear_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/engrenagem"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/gear_2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/engrenagem"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/gear_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/engrenagem"
+            tools:ignore="ContentDescription" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/orbitron_regular"
+        android:text="labem"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lb1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:fontFamily="@font/sweetsansprobold"
+        android:gravity="center"
+        android:text="O SEU LABORATÓRIO DE\nELETROMAGNETISMO"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>

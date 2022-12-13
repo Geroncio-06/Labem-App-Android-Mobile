@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Início"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/calculator"
+        android:title="Calculadora"
+        android:enabled="true"
+        android:icon="@drawable/ic_calculate"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Ajustes"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UselessParent">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/black"
+            android:padding="2dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="0dp"
+                android:layout_centerInParent="true"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/idPic"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/angulo_entre_vet"
+                    tools:ignore="ContentDescription" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/idName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/angulovet"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:fontFamily="@font/sweetsansprobold"
+                android:textColor="@color/black"
+                android:theme="@style/CardView.Light" />
+
+            <TextView
+                android:id="@+id/idSeccao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:maxLines="1"
+                android:textSize="12sp"
+                android:text="Algebra Vetorial"
+                android:textColor="@color/black2"
+                android:textStyle="normal"
+                android:theme="@style/CardView.Light"
+                tools:ignore="HardcodedText" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layoutseccao"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

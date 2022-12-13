@@ -1,0 +1,349 @@
+<resources>
+    <string name="app_name">Labem</string>
+
+    <string name="caixa_de_rolagem">Sugestões para Você</string>
+    <string name="aplicatcoes">Aplicações</string>
+
+    <string name="algebra">Algebra Vetorial</string>
+    <string name="transCoord">Sistemas e Transformação de Coordenadas</string>
+    <string name="calcVet">Cálculo Vetorial</string>
+    <string name="calmpEletro">Campos Eletrostáticos</string>
+    <string name="campeletr">Campos Eletrostáticos</string>
+    <string name="campeletrMat">Campos Eletrostáticos em meio Material</string>
+    <string name="campeletrfront">Problemas de Fronteira em Eletrostática</string>
+    <string name="campemag">Campos Magnetostáticos</string>
+    <string name="campemagespira">CAMPO MAGNÉTICO EM UMA ESPIRA</string>
+
+
+    <string name="escolha">ESCOLHA UM ITEM:</string>
+    <string name="preencha">PREENCHA:</string>
+    <string name="passos">PASSO A PASSO:</string>
+    <string name="resultado">RESULTADO:</string>
+    <string name="calcular">Calcular</string>
+    <string name="sobre">SOBRE</string>
+    <string name="dentre2pontos"> VETOR A PARTIR DE DOIS PONTOS</string>
+    <string name="norma"> NORMA DO VETOR</string>
+    <string name="versor"> VERSOR DO VETOR</string>
+    <string name="coplanaridade"> COPLANARIDADE DE VETORES</string>
+    <string name="produtoescal"> PRODUTO ESCALAR</string>
+    <string name="produtovet"> PRODUTO VETORIAL</string>
+    <string name="produtomisto"> PRODUTO MISTO</string>
+    <string name="angulovet"> ÂNGULO ENTRE VETORES</string>
+    <string name="projort"> PROJEÇÃO ORTOGONAL</string>
+    <string name="somasubvetor"> SOMA E SUBTRAÇÃO DE VETORES</string>
+
+    <string name="algebravetorial"> A Algebra Vetorial tem o objetivo de revisar os conceitos básicos
+                                    do cálculo e da algebra linear necessários ao entendimento do cálculo
+                                    vetorial.</string>
+
+    <string name="erro"> Verifique se todos os campos estão preenchidos com entradas válidas. </string>
+
+    <string name="erro2"> Erro, entrada inválida ou divisão por zero. </string>
+
+    <string name="infoM_d2p"> Um vetor é definido pela diferença entre dois pontos, ou seja,
+                              a diferença entre cada coordenada dos dois pontos.</string>
+
+    <string name="infoM_norma_vetor"> A norma de um vetor é definido como o valor absoluto correspondente
+                              ao comprimento do vetor, medido da extremidade superior à origem.</string>
+
+    <string name="infoM_versor"> O versor é um vetor, logo tem as três propriedades: norma, direção e sentido.
+                               Contudo, o que diferencia o versor de um vetor é que o versor tem norma unitária.</string>
+
+    <string name="infoM_produtescal"> O produto escalar entre dois vetores pode ser interpretado como o tamanho da projeção
+                               de U em W, associando a dois vetores a um número real.</string>
+
+    <string name="infoM_produtvet"> O produto vetorial é uma operação binária sobre vetores em um campo vetorial.
+                               Seu principal uso baseia-se no fato que o resultado é sempre perpendicular a ambos os vetores originais.</string>
+
+    <string name="infoM_produtmisto"> Geometricamente, o módulo do resultado do produto misto é equivalente ao
+                               volume de um paralelepípedo, cujas arestas são formadas pelos três vetores envolvidos.</string>
+
+    <string name="infoM_anguloentrevetores"> O ângulo entre dois vetores é encontrado a partir do arco cosseno da divisão do seu produto escalar
+                                pelo produto das suas respectivas normas.</string>
+
+    <string name="infoM_projecaoortogonal"> A projeção ortogonal de um vetor A sobre outro vetor não nulo B, representa um vetor C
+                               paralelo ao Vetor B, semelhante a uma sombra na direção de B.</string>
+
+    <string name="infoM_somavetor"> As operações básicas de soma e subtração entre vetores está resolvida, como as respectivas
+                               operações entre as componentes correspondentes de ambos os vetores.</string>
+
+    <string name="infoM_coplanaridade"> A coplanaridade, na geometria, é quando todos os pontos se situam no mesmo plano geométrico,
+                               sendo que para descobrir entre 3 vetores, calculamos o determinante e caso ela for nula, os vetores são coplanares.</string>
+
+
+    <string name="vet_AB"> AB = </string>
+    <string name="point_B"> B = </string>
+    <string name="point_A"> A = </string>
+    <string name="point_B2"> B </string>
+    <string name="point_A2"> A </string>
+    <string name="seta"> → </string>
+    <string name="igual"> = </string>
+
+    <string name="vet_U"> U = </string>
+    <string name="vet_U2"> U </string>
+
+    <string name="vet_V"> V = </string>
+    <string name="vet_V2"> V </string>
+
+    <string name="vet_W"> W = </string>
+    <string name="vet_W2"> W </string>
+
+    <string name="setaUV"> →  → </string>
+    <string name="setaUVW"> →  →  → </string>
+    <string name="produtescal_UV"> U . V </string>
+    <string name="moduloseta_UV">   →     →   </string>
+    <string name="modulo_UV"> | U |.| V | </string>
+    <string name="modulo_V"> | V | </string>
+    <string name="produtvet_UV"> U x V </string>
+    <string name="somasubvet_UV"> U ± V = </string>
+    <string name="somasubvet_UV2"> U ± V </string>
+    <string name="produtmisto_UVW"> U . V x W </string>
+
+    <string name="produtvet_1"> u2.v3 </string>
+    <string name="produtvet_2"> - u3.v2 </string>
+    <string name="produtvet_3"> u3.v1 </string>
+    <string name="produtvet_4"> - u1.v3 </string>
+    <string name="produtvet_5"> u1.v2 </string>
+    <string name="produtvet_6"> - u2.v1 </string>
+
+    <string name="menos"> - </string>
+    <string name="soma"> + </string>
+
+    <string name="invisible"> invisible </string>
+    <string name="visible"> visible </string>
+
+    <string name="teta"> Ɵ </string>
+    <string name="projuv"> proj(u,v) </string>
+
+
+    <string name="sistemas_transformadas"> Algumas vezes, é necessário transformar pontos e vetores de um sistema de
+                                    coordenadas para outro sistema. As técnicas para operar essa mudança serão
+                                    apresentadas nesta aba.</string>
+
+    <string name="cartesianatocilindrico"> CARTESIANO PARA CILIÍNDRICO </string>
+    <string name="cartesianatoesferico"> CARTESIANO PARA ESFÉRICO </string>
+    <string name="cilindricotocartesiano"> CILIÍNDRICO PARA CARTESIANO </string>
+    <string name="cilindricotoesferico"> CILIÍNDRICO PARA ESFÉRICO </string>
+    <string name="esfericotocartesiano"> ESFÉRICO PARA CARTSEIANO </string>
+    <string name="esfericotocilindrico"> ESFÉRICO PARA CILIÍNDRICO </string>
+
+
+    <string name="sistemas_cartesianocilindrico"> Um sistema de coordenadas cilíndrico circular é conveniente
+                                    quando tratamos problemas com simetria cilíndrica. Um ponto P, em coordenadas
+                                    cilíndricas, é representado por (ᵨ,ᵩ,z).</string>
+
+    <string name="sistemas_cartesianoesferico"> Um sistema de coordenadas esférico é conveniente
+                                    quando tratamos problemas com simetria esférica. Um ponto P, em coordenadas
+                                    esféricas, é representado por (r,Ɵ,ᵩ).</string>
+
+    <string name="sistemas_cilindricocartesiano"> Um sistema de coordenadas cartesiano é um traçado de retas perpendiculares
+                                   onde perpassa outra, sendo uma na horizontal e outra na vertical, formando
+                                   quadrantes de 90°, um ponto P é representado por (x,y,z).</string>
+
+
+    <string name="calculo_vetorial"> O cálculo vetorial, fornece uma linguagem conveniente para expressar certas
+                                    concepções fundamentais em Eletromagnetismo ou em Matemática em geral.
+                                    </string>
+
+    <string name="campos_eletrostaticos"> Um campo eletrostático é gerado por uma distribuição de cargas estáticas. Esse
+                                    campo pode formar-se em torno de dois objetos na mesma vizinhança.
+                                    </string>
+
+    <string name="campos_magnetostaticos"> Um campo magnetostático é uma região do espaço capaz de exercer forças sobre
+                                    cargas elétricas em movimento e em materias dotados de propriedades magnéticas.
+                                    </string>
+
+    <string name="ce_forcadecoulomb"> A lei de Coulomb é uma lei experimental da física que descreve a interação eletrostática
+                                    entre partículas eletricamente carregadas.
+                                    </string>
+
+    <string name="ce_intensidadecampeletro"> O vetor intensidade do campo elétrico é uma grandeza vetorial que pode ser utilizada
+                                    para medir a força exercida em cada carga de teste colocada dentro desse campo.
+                                    </string>
+
+    <string name="ce_linhadecargas"> Os campos elétricos podem assumir
+                                    uma distribuição contínua de cargas ao longo de uma geometria, podendo ser linear,
+                                    superficial ou volumétrica.
+                                    </string>
+
+    <string name="integraldelinhatext"> Em matemática, a integral de linha é uma integral em que a função a ser
+                                    integrada é calculada ao longo de uma curva.
+                                    </string>
+
+    <string name="cm_linhadecorrente"> Os campos magnéticos podem ser gerados pelo movimento de cargas elétricas
+                                    com uma distribuição contínua de corrente ao longo de uma geometria, podendo ser linear,
+                                    superficial ou volumétrica.
+                                    </string>
+
+    <string name="cedensidadeenergia"> Densidade de energia é a relação entre a quantidade de energia contida em um dado sistema
+                                    ou região do espaço.
+                                    </string>
+
+    <string name="gradiente_cartesiano"> GRADIENTE CARTESIANO</string>
+
+    <string name="gradiente_cilindro"> GRADIENTE CILIÍNDRICO</string>
+
+    <string name="gradiente_esferico"> GRADIENTE ESFÉRICO</string>
+
+    <string name="divergente_cartesiano"> DIVERGENTE CARTESIANO</string>
+
+    <string name="divergente_cilindrico"> DIVERGENTE CILIÍNDRICO</string>
+
+    <string name="divergente_esferico"> DIVERGENTE ESFÉRICO</string>
+
+    <string name="rotacional_cartesiano"> ROTACIONAL CARTESIANO</string>
+
+    <string name="rotacional_cilindrico"> ROTACIONAL CILíÍNDRICO</string>
+
+    <string name="rotacional_esferico"> ROTACIONAL ESFÉRICO</string>
+
+    <string name="integral_linha"> INTEGRAL DE LINHA</string>
+
+    <string name="funcao_f"> F =</string>
+
+    <string name="gradiente"> O gradiente de um escalar V é um vetor que representa a magnitude e a orientação
+                                    da máxima taxa espacial de variação de V.
+                                    </string>
+
+    <string name="divergente"> O divergente é um operador que mede a magnitude da "fonte" ou "poço" de um campo
+                                    vetorial em um dado ponto, isto é, ele é um escalar que mede a dispersão dos
+                                    vetores do campo num determinado ponto.
+                                    </string>
+
+    <string name="rotacional"> O rotacional é um operador que mede, em uma superficie infinitesiaml, o quanto os
+                                    campos de vetores de um campo vetorial se afastam ou aproximam de um vetor
+                                    normal a esta superficie, ou seja, ele calcula a circulação no espaço.
+                                    </string>
+
+
+    <string name="info_cartesianocilindrico"> INFO CARTESIANO CILÍNDRICO </string>
+
+    <string name="info_parametro_x"> X , x - Variável </string>
+
+    <string name="info_parametro_y"> Y , y - Variável </string>
+
+    <string name="info_parametro_z"> Z , z - Variável </string>
+
+    <string name="info_descriçao_1"> Transforma as entradas que estão no sistema cartesiano para o sistema cilíndrico. Observando que as entradas podem ser :   </string>
+
+    <string name="info_descriçao_2"> - Só o ponto P;   </string>
+
+    <string name="info_descriçao_3"> - Só o vetor U;   </string>
+
+    <string name="info_descriçao_4"> - Um ponto que é resultado de U(p);   </string>
+
+    <string name="info_descriçao_5"> Operadores Incorporados   </string>
+
+    <string name="info_descriçao_6">
+        - Adição: 2 + 2 "\n"
+        - Subtração: 2 - 2 "\n"
+        - Multiplicação: 2 * 2 "\n"
+        - Divisão: 2 / 2"\n"
+        - Exponenciação: (2)^{2}\n\n
+
+        Obs: É indispensavel o uso dos operadores, caso contario haverá erro de leitura. \n
+        \n
+        Exemplo:\n
+         \n
+         "2x" (forma errada), 2*x (forma certa).\n
+    </string>
+
+    <string name="info_descriçao_7"> Funções Incorporadas   </string>
+
+    <string name="info_descriçao_8">
+        - abs " "" "" " : valor absoluto "\n"
+        - acos : arco cosseno "\n"
+        - asin " "" ": arco seno "\n"
+        - atan " ": arco tangente "\n"
+        - cos  " "" "" ": cosseno "\n"
+        - sin " "" "" " : seno "\n"
+        - tan  " "" "" ": tangente "\n"
+        - cosh " "" ": cosseno hiperbólico "\n"
+        - sinh " "" ": seno hiperbólico "\n"
+        - tanh " "" ": tangente hiperbólica "\n"
+        - ln  " "" "" ": logaritmo natural (base e) "\n"
+        - log : logaritmo (base 10) "\n"
+
+    </string>
+
+    <string name="info_descriçao_9"> Constantes Incorporadas   </string>
+
+    <string name="info_descriçao_10">
+        - pi : π = 3.14159265359 "\n"
+        - e : número de euler = 2.71828182846
+    </string>
+
+    <string name="info_descriçao_11"> Tipos de Entrada para as Variaveis </string>
+
+    <string name="info_descriçao_12">As variaveis físicas devem ser colocadas em S.I. Para situações físicas reais, um ponto de cálculo
+        P (x,y,z) devem ser colocados em metros (m)"\n"
+        \n
+        Por exemplo:\n
+        P(0,0,75cm) vai ser lido errado. O certo é:\n
+        P(0,0,0.75)\n
+        \n
+        As variaveis de entrada que representam um ângulo devem ser introduzidas com o seu valor em radianos
+        para serem feitas as operações corretamente.\n
+        \n
+        Por exemplo:\n
+        P(10,90°,2) vai ser lido errado. O certo é:\n
+        P(10,1.5707,2)\n
+    </string>
+
+    <string name="info_exemplo_1">
+        Modo só o ponto P :
+    </string>
+
+    <string name="info_exemplo_2">
+        Modo só o vetor U :
+    </string>
+
+    <string name="info_exemplo_3">
+        Substituindo o ponto P no vetor U :
+    </string>
+
+    <string name="info_exemplo_4">
+        Divisão: "\n""\n"
+        U = 《y/x》i + 0j + 0k
+    </string>
+    <string name="info_exemplo_5">
+        Exponencial base e: "\n""\n"
+        U = exp{2}i + 0j + 0k
+    </string>
+
+    <string name="info_parametro_obs"> Quaisquer outras incógnitas inseridas geraram uma mensagem de erro.  </string>
+
+    <string name="info_definicao_obs">
+        A operação da divisão tem que vir acompanhada da simbologia 《 / 》, encontrado no Android. "\n"
+        "\n"
+        A operação de exponenciação tem que vir acompanhada da simbologia ()^{} ou []^{} .
+    </string>
+
+    <string name="info_variaveis"> PARÂMETROS </string>
+
+    <string name="info_descricao"> DESCRIÇÃO </string>
+
+    <string name="info_exemplo"> EXEMPLOS </string>
+    <string name="forca_coulomb">FORÇA DE COULOMB</string>
+    <string name="string_itenscampele">INTENSIDADE DE CAMPOS ELÉTRICOS</string>
+    <string name="string_linhadecargas">CAMPO ELÉTRICO EM UMA LINHA DE CARGA</string>
+    <string name="string_superficiedecargas">CAMPO ELÉTRICO EM UMA SUPERFÍCIE DE CARGA</string>
+    <string name="string_volumedecargas">CAMPO ELÉTRICO EM UM VOLUME DE CARGA</string>
+    <string name="string_potencialeletricovolume">POTENCIAL ELÉTRICO EM UM VOLUME DE CARGAS</string>
+    <string name="string_potencialeletricosuperficie">POTENCIAL ELÉTRICO EM UMA SUPERFÍCIE DE CARGAS</string>
+    <string name="string_potencialeletrico">Potencial elétrico é a capacidade que um corpo energizado tem de realizar trabalho, ou seja, atrair ou repelir outras cargas elétricas.</string>
+    <string name="campMag">CAMPOS MAGNETOSTÁTICOS</string>
+    <string name="CamposMag">Campos \nMagnetostáticos</string>
+    <string name="densidade_de_energia_linear">DENSIDADE DE ENERGIA LINEAR</string>
+    <string name="densidade_de_energia_superficial">DENSIDADE DE ENERGIA SUPERFICIAL</string>
+    <string name="densidade_de_energia_volum_trica">DENSIDADE DE ENERGIA VOLUMÉTRICA</string>
+    <string name="campLinha">CAMPO MAGNÉTICO EM UMA LINHA</string>
+    <string name="cmsolenoide">CAMPO MAGNÉTICO EM UM SOLENÓIDE</string>
+    <string name="cmsuperficie">CAMPO MAGNÉTICO GERADO POR UMA SUPERFÍCIE</string>
+    <string name="cmcabocoaxial">CAMPO MAGNÉTICO EM UM CABO COAXIAL</string>
+    <string name="cmdensidadefluxocart">DENSIDADE DE FLUXO MAGNÉTICO DE UM POTENCIAL CARTESIANO</string>
+    <string name="cmdensidadecilindrico">DENSIDADE DE FLUXO MAGNÉTICO DE UM POTENCIAL CILINDRICO</string>
+    <string name="cmdensidadecorrente">DENSIDADE DE CORRENTE DE UM POTENCIAL CARTESIANO</string>
+    <string name="cmdensidadecorrentecilindro">DENSIDADE DE CORRENTE DE UM POTENCIAL CILINDRICO</string>
+    <string name="densidadedeenergia">DENSIDADE DE ENERGIA EM UM VOLUME ESFÉRICO</string>
+</resources>

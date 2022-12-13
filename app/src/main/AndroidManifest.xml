@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.geroncio.labem">
+
+    /**
+    * android:screenOrientation="portrait"
+
+    Esse código impede de o aplicativo girar a tela, permitindo apenas tela em pé*/
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_labem2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_labem2_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.labem">
+        <activity
+            android:name=".Others.Newseacrchlayout"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app3"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.CmDensidadecorrentecilindrico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.CmDendidadecorrente"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.CmDensidadefluxomagneticocilindrico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.CmDensidadefluxomagneticocartesiano"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.CmLinhacoaxiallonga"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.CorrenteLamina"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.CmSolenoide"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.CmEspira"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Others.Info"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app3"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.Correnteemlinha"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_magneticos.Camposmagneticos"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.CeTrabalholinha"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.CePotencialeletricoVolume"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.CePotencialeletricoSuperficie"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.CePotencialeletricolinha"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.CeVolumedecargas"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.CeSuperficiedecargas"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.CeLinadecargas"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.CeIntensidadecamposeletricos"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.CeForcacoulomb"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Campos_eletrostaticos.Camposeletrostaticos"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Others.Settings"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app3"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Others.Calculator"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app3"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.Calculo_vetorial"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.CvDivergentecartesiano"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.CvDivergentecilindrico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.CvDivergenteesferico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.CvGradientecilindrico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.CvGradienteesferico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.CvIntegraldelinha"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.CvRotacionalcartesiano"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.CvRotacionalcilindrico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.CvRotacionalesferico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Calculo_vetorial.GradienteCartesiano"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Transformada.SistemaTransformada"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Transformada.StcCartesianocilindrico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Transformada.StcCartesianoesferico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Transformada.StcCilindricocartesiano"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Transformada.StcCilindricoesferico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Transformada.StcEsfericocartesiano"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Transformada.StcEsfericocilindrico"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.Algebra_vetorial"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.AvAnguloentrevetores"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.AvCoplanaridadevetores"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.AvNormadovetor"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.AvProdutoescalar"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.AvProdutomisto"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.AvProjecaoortogonal"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.AvSomavetores"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.AvVetordoispontos"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.AvProdutovetorial"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Algebra_vetorial.VersorVetor"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.app2"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.labem_home"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.labem"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
